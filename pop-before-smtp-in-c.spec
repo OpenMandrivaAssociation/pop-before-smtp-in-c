@@ -18,7 +18,6 @@ Group:		System/Servers
 Requires(post,preun):	rpm-helper
 Requires:	postfix vm-pop3d
 Conflicts:	%{altname}
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Spam prevention requires preventing open relaying through email
