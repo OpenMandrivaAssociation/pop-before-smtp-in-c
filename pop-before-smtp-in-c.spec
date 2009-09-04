@@ -2,7 +2,7 @@
 %define name	pop-before-smtp-in-c
 %define altname	pop-before-smtp
 %define version	1.0
-%define	rel	3
+%define	rel	4
 %define	release	%mkrel %{rel}
 
 Summary:	Watch log for pop/imap auth, notify Postfix to allow relay
