@@ -1,3 +1,4 @@
 sources:
-  "pop-before-smtp-1.0.tar.bz2:"	c2fc2417e54a3aa703d30c68f39aeabc31e44de9
-  "pop-before-smtp.init.bz2:"	c1c988ecc5de2e047343f8fea68ad050f975939c
+  "pop-before-smtp-1.0.tar.bz2": c2fc2417e54a3aa703d30c68f39aeabc31e44de9
+  "pop-before-smtp-maillog.patch.bz2": 9621be3a8f690fda32962952a97b3c16011ede66
+  "pop-before-smtp.init.bz2": c1c988ecc5de2e047343f8fea68ad050f975939c

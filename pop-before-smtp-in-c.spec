@@ -60,3 +60,31 @@ rm -rf $RPM_BUILD_ROOT
 %{_sbindir}/%{altname}
 %config(noreplace) %{_initrddir}/%{altname}
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.0-4mdv2010.0
++ Revision: 430760
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.0-3mdv2009.0
++ Revision: 136428
+- restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 1.0-3mdv2008.1
++ Revision: 125527
+- kill re-definition of %%buildroot on Pixel's request
+- import pop-before-smtp-in-c
+
+
+* Sun Jun 12 2005 Per Øyvind Karlsen <pkarlsen@mandriva.com> 1.0-3mdk
+- rebuild
+- %%mkrel
+- fix requires
+
+* Fri Mar 05 2004 Per �yvind Karlsen <peroyvind@linux-mandrake.com> 1.0-2mdk
+- rebuild
+- remove prereq on /sbin/chkconfig
+
+* Sat Jan 25 2003 Per Øyvind Karlsen <peroyvind@sintrax.net> 1.0-1mdk
+- First release
