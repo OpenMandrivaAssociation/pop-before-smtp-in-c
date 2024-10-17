@@ -12,7 +12,7 @@ Release:	%{release}
 Source0:	%{altname}-%{version}.tar.bz2
 Source1:	%{altname}.init.bz2
 Patch0:		%{altname}-maillog.patch.bz2
-URL:		http://www.bluelavalamp.net/pop-before-smtp/
+URL:		https://www.bluelavalamp.net/pop-before-smtp/
 License:	GPL
 Group:		System/Servers
 Requires(post,preun):	rpm-helper
